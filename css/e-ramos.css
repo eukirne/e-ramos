@@ -40,10 +40,49 @@ body {
   /* background-color: #fff */
 }
 
+.ErTitle{
+  padding: 2rem;
+}
+
+.myCarousel {
+  width: 100%;
+  height: 20rem;
+}
+
+.carousel-item {
+height: inherit;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.introRow {
+  /* padding-top: 2rem; */
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-width: thin;
+  border-style: solid;
+  border-color: #c4fb6d
+}
+
+.myIntro{
+  text-align: center;
+  padding: 2rem;
+}
+
+.introImage{
+  padding: 2rem;
+}
 
 @media (min-width: 768px) {
   .nav-item {
     border-width: thin;
     border-style: none;
+  }
+  .myIntro{
+    /* text-align: justify; */
   }
 }
