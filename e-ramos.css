@@ -1,0 +1,130 @@
+body {
+  padding-top: 5rem;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue LT W01_41488878', Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.12rem;
+  font-weight: 300;
+  color: #1e1e1e;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.eramosNav {
+  background-color: #fff;
+  font-size: 0.8rem;
+}
+
+.nav-item {
+  border-width: thin;
+  border-style: none none solid none;
+  border-color: #fe91ca
+}
+
+.navbar-light .navbar-toggler {
+  /* border: none; */
+  padding: 0.5rem;
+  border-radius: 50%;
+  border-color: #c4fb6d
+    /* background-color: #fff */
+}
+
+.navbar-toggler {
+  /* border: none; */
+  padding: 0.5rem;
+  border-radius: 50%;
+  border-color: #c4fb6d
+    /* background-color: #fff */
+}
+
+.navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.ErTitle {
+  padding: 2rem;
+}
+
+.myCarousel {
+  width: 100%;
+  height: 20rem;
+}
+
+.carousel-item {
+  height: inherit;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.introRow {
+  /* padding-top: 2rem; */
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-width: thin;
+  border-style: solid;
+  border-color: #c4fb6d
+}
+
+.myIntro {
+  text-align: center;
+  padding: 2rem;
+}
+
+.introImage {
+  padding: 2rem;
+}
+
+.myBreak {
+  border-width: thin;
+  border-style: solid none none none;
+}
+
+.myAlbum {
+  /* background-color: #fff; */
+  padding-top: 1rem!important;
+}
+
+.galleryImage {
+  padding: 4%;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  align-self: center;
+
+}
+
+.imageContainer{
+  height: 10rem;
+}
+
+.myColumn {
+  padding: 0.5rem;
+}
+
+.myCard {
+  background-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  border-color: #c4fb6d;
+  padding: 0px;
+  height: 18rem;
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    border-width: thin;
+    border-style: none;
+  }
+
+  .myIntro {
+    /* text-align: justify; */
+  }
+}
