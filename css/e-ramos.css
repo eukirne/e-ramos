@@ -1,12 +1,45 @@
 body {
   padding-top: 5rem;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue LT W01_41488878', Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.12rem;
+  font-weight: 300;
+  color: #1e1e1e;
 }
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
-/* .dropdown-item {
-  text-align: right;
+.eramosNav {
+  background-color: #fff;
+  font-size: 0.8rem;
+}
 
-} */
+.nav-item {
+  border-width: thin;
+  border-style: none none solid none;
+  border-color: #fe91ca
+}
+
+.navbar-light .navbar-toggler {
+  /* border: none; */
+  padding: 0.5rem;
+  border-radius: 50%;
+  border-color: #c4fb6d
+  /* background-color: #fff */
+}
+
+.navbar-toggler-icon {
+  /* border: none; */
+  line-height: thin;
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    border-width: thin;
+    border-style: none;
+  }
+}
