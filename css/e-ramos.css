@@ -32,10 +32,14 @@ body {
   /* background-color: #fff */
 }
 
-.navbar-toggler-icon {
+.navbar-toggler {
   /* border: none; */
-  line-height: thin;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border-color: #c4fb6d
+  /* background-color: #fff */
 }
+
 
 @media (min-width: 768px) {
   .nav-item {
