@@ -29,7 +29,7 @@ body {
   padding: 0.5rem;
   border-radius: 50%;
   border-color: #c4fb6d
-  /* background-color: #fff */
+    /* background-color: #fff */
 }
 
 .navbar-toggler {
@@ -37,10 +37,15 @@ body {
   padding: 0.5rem;
   border-radius: 50%;
   border-color: #c4fb6d
-  /* background-color: #fff */
+    /* background-color: #fff */
 }
 
-.ErTitle{
+.navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.ErTitle {
   padding: 2rem;
 }
 
@@ -50,7 +55,7 @@ body {
 }
 
 .carousel-item {
-height: inherit;
+  height: inherit;
 }
 
 .carousel-indicators li {
@@ -68,13 +73,48 @@ height: inherit;
   border-color: #c4fb6d
 }
 
-.myIntro{
+.myIntro {
   text-align: center;
   padding: 2rem;
 }
 
-.introImage{
+.introImage {
   padding: 2rem;
+}
+
+.myBreak {
+  border-width: thin;
+  border-style: solid none none none;
+}
+
+.myAlbum {
+  /* background-color: #fff; */
+  padding-top: 1rem!important;
+}
+
+.galleryImage {
+  padding: 4%;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  align-self: center;
+
+}
+
+.imageContainer{
+  height: 10rem;
+}
+
+.myColumn {
+  padding: 0.5rem;
+}
+
+.myCard {
+  background-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  border-color: #c4fb6d;
+  padding: 0px;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +122,8 @@ height: inherit;
     border-width: thin;
     border-style: none;
   }
-  .myIntro{
+
+  .myIntro {
     /* text-align: justify; */
   }
 }
