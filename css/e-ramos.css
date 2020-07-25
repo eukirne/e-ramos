@@ -146,4 +146,10 @@ body {
     border-style: none none solid none;
     border-color: #fe91ca
   }
+
+  .eramosNav {
+    background-color: #fff;
+    font-size: 1.1rem;
+  }
+
 }
