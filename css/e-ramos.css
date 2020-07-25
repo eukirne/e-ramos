@@ -115,15 +115,34 @@ body {
   border-style: solid;
   border-color: #c4fb6d;
   padding: 0px;
+  height: 18rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 575px) {
   .nav-item {
     border-width: thin;
     border-style: none;
   }
 
-  .myIntro {
-    /* text-align: justify; */
+}
+
+@media (max-width: 575px) {
+
+  .nav-item {
+    border-width: thin;
+    border-style: none;
+  }
+
+  .myCard {
+    background-color: #fff;
+    border-width: thin;
+    border-style: solid;
+    border-color: #c4fb6d;
+    padding: 0px;
+    height: auto;
+  }
+
+  .imageContainer{
+    height: auto;
   }
 }
