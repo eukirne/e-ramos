@@ -118,7 +118,7 @@ body {
   height: 18rem;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
   .nav-item {
     border-width: thin;
     border-style: none;
@@ -128,15 +128,10 @@ body {
 
 @media (max-width: 575px) {
 
-  .nav-item {
-    border-width: thin;
-    border-style: none;
-  }
-
   .myCard {
     background-color: #fff;
     border-width: thin;
-    border-style: solid;
+    border-style: solid none none none;
     border-color: #c4fb6d;
     padding: 0px;
     height: auto;
@@ -144,5 +139,11 @@ body {
 
   .imageContainer{
     height: auto;
+  }
+
+  .nav-item {
+    border-width: thin;
+    border-style: none none solid none;
+    border-color: #fe91ca
   }
 }
